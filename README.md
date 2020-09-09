@@ -3,6 +3,7 @@
 This script takes in the the number of desired indices (int), the target index (str), and historical price data (.csv), and return a csv file with the symbols and weights that constitutes the replicated index. An additional feature is that the output csv will also have r value and number of times shuffled (see "how it works" for details) to indicate how good of a replication the script has created.
 
 Run the script with the following command:
+
 python3 approximate_index.py [n] [target_index] [historical_prices.csv] > [output.csv]
 
 ## How it works
