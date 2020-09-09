@@ -14,5 +14,7 @@ The script does n steps:
 3. return the set of coefficient with the best r value
 (4. optional: you can view the plot of the replicated index along with the target index)
 
+I chose to use a random iteration to pick the best approximation because it provides a good enough r value (>0.9 with 10 times shuffles and n >4) without getting into the details of analyzing the actual data. Considering the limited time I have, this is the most time consuming in terms of runtime, but easiest to implement and understand. If I had more time and understanding of detailed calulations of returns, I would use fancier formulas to pick the most liquid stock and use that as a starting point. 
+
 ##References
 https://predictivemodeler.com/2020/05/09/non-negative-least-squares-regression/
