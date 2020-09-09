@@ -5,7 +5,7 @@ This script takes in the the number of desired indices (int), the target index (
 Run the script with the following command:
 python3 approximate_index.py [n] [target_index] [historical_prices.csv] > [output.csv]
 
-##How it works
+## How it works
 The script does n steps:
 1. convert the historical_prices.csv into dataframes
 2. do the following for however many times you want:
@@ -14,5 +14,5 @@ The script does n steps:
 3. return the set of coefficient with the best r value
 (4. optional: you can view the plot of the replicated index along with the target index)
 
-##References
+## References
 https://predictivemodeler.com/2020/05/09/non-negative-least-squares-regression/
